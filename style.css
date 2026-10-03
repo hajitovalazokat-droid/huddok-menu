@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Oddiy foni, agar xohlasangiz */
+}
+
+.menu-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.item-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.item-price {
+    float: right;
+    color: #e44d26; /* Narx rangi, xohishingizga ko'ra o'zgartiring */
+}
+
+.item-description {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    margin-top: 30px;
+}
